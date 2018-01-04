@@ -1,0 +1,38 @@
+.Block {
+  height: calc(100vh - 5rem);
+  position: relative;
+  @media screen and (min-width: 768px){
+    height: calc(100vh - 8rem);
+  }
+
+
+  img {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: top;
+  }
+
+  &__text {
+    text-align: center;
+    font-family: "BaskervilleCom", serif;
+    font-weight: normal;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    top: 50%;
+    padding: 0 1.25rem;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .14rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    @media screen and (min-width: 768px){
+      font-size: 2rem;
+      padding: 0;
+      max-width: 600px;
+    }
+  }
+}

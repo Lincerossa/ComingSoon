@@ -1,0 +1,55 @@
+.Block {
+  height: calc(100vh - 5rem);
+  position: relative; }
+  @media screen and (min-width: 768px) {
+    .Block {
+      height: calc(100vh - 8rem); } }
+  .Block img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top; }
+  .Block__text {
+    text-align: center;
+    font-family: "BaskervilleCom", serif;
+    font-weight: normal;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    top: 50%;
+    padding: 0 1.25rem;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .14rem;
+    line-height: 1.5;
+    font-size: 1.5rem; }
+    @media screen and (min-width: 768px) {
+      .Block__text {
+        font-size: 2rem;
+        padding: 0;
+        max-width: 600px; } }
+
+.Header__logo {
+  max-width: 160px;
+  margin: 0 auto;
+  padding: 1.25rem 0; }
+  @media screen and (min-width: 768px) {
+    .Header__logo {
+      padding: 2.5rem 0;
+      max-width: 230px; } }
+
+.Header__logo img {
+  display: block; }
+
+.Wrapper {
+  margin: 0 auto;
+  padding: 0 1.25rem; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+/*# sourceMappingURL=index.css.map*/

@@ -1,0 +1,18 @@
+.Header {
+}
+
+  .Header__logo {
+    max-width: 160px;
+    margin: 0 auto;
+    padding: 1.25rem 0;
+
+    @media screen and (min-width: 768px){
+      padding: 2.5rem 0;
+      max-width: 230px;
+    }
+
+  }
+
+  .Header__logo img {
+    display: block;
+  }
